@@ -1,1 +1,1 @@
-# program
+Program za predmet Uvod v programiranje
