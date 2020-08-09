@@ -102,3 +102,17 @@ def pretvorba_mase(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_masa(stevilo, vhodna_enota)
     iskana = iskana_masa(stevilo, izhodna_enota)
     return iskana 
+
+
+
+
+##  za izbiro količine
+def pretvorba(izbrana_kolicina,stevilo, vhodna_enota, izhodna_enota):
+    if izbrana_kolicina == 'temperatura':
+        return pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota)
+    elif izbrana_kolicina == 'dolzina': 
+        return pretvorba_dolzine(stevilo, vhodna_enota, izhodna_enota)
+    elif izbrana_kolicina == 'masa':
+        return pretvorba_mase(stevilo, vhodna_enota, izhodna_enota)
+    else: 
+        return False 
