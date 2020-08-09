@@ -107,7 +107,7 @@ def pretvorba_mase(stevilo, vhodna_enota, izhodna_enota):
 
 
 ##  za izbiro količine
-def pretvorba(izbrana_kolicina,stevilo, vhodna_enota, izhodna_enota):
+def pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota):
     if izbrana_kolicina == 'temperatura':
         return pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota)
     elif izbrana_kolicina == 'dolzina': 
