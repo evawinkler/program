@@ -9,7 +9,7 @@ def osnovna_temperatura(stevilo, enota):
     else: 
         return False 
 
-def izkana_temperatura( stevilo, enota):
+def iskana_temperatura( stevilo, enota):
     if enota == 'kelvin':
         return stevilo
     elif enota == 'fahrenheit':
