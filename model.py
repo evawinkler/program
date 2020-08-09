@@ -17,4 +17,4 @@ def izkana_temperatura( stevilo, enota):
     elif enota == 'celzij': 
         return stevilo - 273.15 
     else: 
-        return False 
+        return False  
