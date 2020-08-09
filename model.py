@@ -22,7 +22,7 @@ def iskana_temperatura(stevilo, enota):
 
 def pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota ):
     osnovna = osnovna_temperatura(stevilo, vhodna_enota)
-    iskana = iskana_temperatura(stevilo, izhodna_enota)
+    iskana = iskana_temperatura(osnovna, izhodna_enota)
     return iskana
 
 #pretvorbe dolžine (najprej v osnovno enoto meter , nato v iskano enoto )
@@ -69,7 +69,7 @@ def iskana_dolzina(stevilo, enota):
 
 def pretvorba_dolzine(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_dolzina(stevilo, vhodna_enota)
-    iskana = iskana_dolzina(stevilo, izhodna_enota)
+    iskana = iskana_dolzina(osnovna, izhodna_enota)
     return iskana 
 
 #pretvorbe mase (najprej v osnovno enoto kilogram, nato v iskano enoto )
@@ -100,7 +100,7 @@ def iskana_masa(stevilo, enota):
 
 def pretvorba_mase(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_masa(stevilo, vhodna_enota)
-    iskana = iskana_masa(stevilo, izhodna_enota)
+    iskana = iskana_masa(osnovna, izhodna_enota)
     return iskana 
 
 
