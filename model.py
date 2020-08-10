@@ -115,4 +115,4 @@ def pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota):
     elif izbrana_kolicina == 'masa':
         return pretvorba_mase(stevilo, vhodna_enota, izhodna_enota)
     else: 
-        return False 
+        return False  
