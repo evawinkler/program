@@ -1,10 +1,9 @@
+% import model 
 
 <!DOCTYPE html>
 <html>
 <head>
-
-    <!-- Tukaj vključimo css strani -->
-    <title> Vislice </title>
+    <title> PRETVORNIK ENOT </title>
     <meta charset="UTF-8">
 </head>
     

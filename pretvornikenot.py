@@ -2,8 +2,8 @@ import model
 import bottle 
 
 @bottle.get('/')
-def osnovna_stran():
-    return bottle.template('views/index.tpl')
+def zacetna_stran():
+    return bottle.template('views/osnovna_stran.tpl')
 
 
 
