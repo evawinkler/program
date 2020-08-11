@@ -4,8 +4,8 @@
 <h1>Pretvornik dolžine</h1>
 
 <br>
-<form action="/pretvori/">
-    pretvori število: <input type="text" name="stevilo">
+<form action="/pretvori/" method="POST">
+    pretvori število: <input type="text" name="stevilo" >
     <text> iz enote: </text>
     <input type="radio" name="vhodna_enota" value="milimeter"> milimeter</option>
     <input type="radio" name="vhodna_enota" value="centimeter"> centimeter</option>
@@ -26,5 +26,6 @@
     <input type="radio" name="izhodna_enota" value="cevelj"> cevelj</option>
     <input type="radio" name="izhodna_enota" value="jard"> jard</option>
 
+    <button type="submit"> Pretvori</button>
   </form>
 </br>

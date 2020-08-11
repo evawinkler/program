@@ -1,4 +1,4 @@
-% rebase('views/base.tpl', title = 'Začetna stran')
+% rebase('view/base.tpl', title = 'Začetna stran')
 % import model 
 
   <h1>Pretvornik enot</h1>
