@@ -9,7 +9,7 @@ def osnovna_temperatura(stevilo, enota):
     elif enota == 'celzij' : 
         return  stevilo +  273.15
     else: 
-        return False 
+        return 'Preveri enoto'
 
 def iskana_temperatura(stevilo, enota):
     if enota == 'kelvin':
@@ -19,7 +19,7 @@ def iskana_temperatura(stevilo, enota):
     elif enota == 'celzij': 
         return stevilo - 273.15 
     else: 
-        return False  
+        return 'Preveri enoto' 
 
 def pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota ):
     osnovna = osnovna_temperatura(stevilo, vhodna_enota)
@@ -39,14 +39,14 @@ def osnovna_dolzina(stevilo, enota):
         return stevilo
     elif enota == 'kilometer' :
         return stevilo * 1000
-    elif enota == 'palec' or enota == 'inch': 
+    elif enota == 'palec': 
         return stevilo * 0.0254
-    elif enota == 'cevelj' or enota == 'feet':
+    elif enota == 'cevelj':
         return stevilo * 0.3048
-    elif enota == 'jard' or enota == 'yard': 
+    elif enota == 'jard': 
         return stevilo * 0.9144
     else: 
-        return False  
+        return 'Preveri enoto' 
 
 def iskana_dolzina(stevilo, enota):
     if enota == 'milimeter':
@@ -59,14 +59,14 @@ def iskana_dolzina(stevilo, enota):
         return stevilo
     elif enota == 'kilometer':
         return stevilo / 1000
-    elif enota == 'palec' or enota == 'inch': 
+    elif enota == 'palec' : 
         return stevilo * 39.3701
-    elif enota == 'cevelj' or enota == 'foot':
+    elif enota == 'cevelj':
         return stevilo * 3.28084
-    elif enota == 'jard' or enota == 'yard':
+    elif enota == 'jard':
         return stevilo / 1.09361
     else: 
-        return False 
+        return 'Preveri enoto'
 
 def pretvorba_dolzine(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_dolzina(stevilo, vhodna_enota)
@@ -85,7 +85,7 @@ def osnovna_masa(stevilo, enota):
     elif enota == 'tona':
         return stevilo * 1000
     else: 
-        return False 
+        return 'Preveri enoto'
 
 def iskana_masa(stevilo, enota):
     if enota == 'gram':
@@ -97,7 +97,7 @@ def iskana_masa(stevilo, enota):
     elif enota == 'tona':
         return stevilo * 0.001 
     else: 
-        return False 
+        return 'Preveri enoto'
 
 def pretvorba_mase(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_masa(stevilo, vhodna_enota)
@@ -116,4 +116,4 @@ def pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota):
     elif izbrana_kolicina == 'masa':
         return pretvorba_mase(stevilo, vhodna_enota, izhodna_enota)
     else: 
-        return False  
+        return False
