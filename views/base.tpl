@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> PRETVORNIK ENOT </title>
+    <title> {{title}} </title>
     <meta charset="UTF-8">
 </head>
     
@@ -13,7 +13,7 @@
         {{!base}}
     </div>
 
-    <!-- Tukaj damo javascript -->
+    <footer> Eva Winkler, 2020 </footer>
   
 </body>
 
