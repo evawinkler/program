@@ -1,4 +1,4 @@
-% rebase('views/base.tpl', title = 'Pretvarjanje enot')
+%rebase('views/base.tpl', title = 'Pretvarjanje enot')
 % import model 
 
 <h1>Pretvornik dolžine</h1>

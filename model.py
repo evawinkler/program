@@ -1,4 +1,4 @@
-import json
+
 # pretvorbe temperature  (najprej v osnovno enoto kelvin , nato v iskano enoto )
 
 def osnovna_temperatura(stevilo, enota):

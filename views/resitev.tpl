@@ -1,4 +1,4 @@
-% rebase('views/base.tpl', title = 'Rešitev')
+%rebase('views/base.tpl', title = 'Rešitev')
 % import model 
 
 <h1>REŠITEV</h1>

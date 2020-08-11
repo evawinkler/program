@@ -1,5 +1,6 @@
-% rebase('view/base.tpl', title = 'Začetna stran')
 % import model 
+%rebase('views/base.tpl', title = 'Začetna stran')
+
 
   <h1>Pretvornik enot</h1>
 
@@ -14,8 +15,8 @@
 </br> 
 
 <br>
-  <form action="/dolzno/">
-    <button type="submit">dolzna</button>
+  <form action="/dolzino/">
+    <button type="submit">dolzina</button>
   </form>
 </br> 
 
