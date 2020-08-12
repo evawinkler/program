@@ -3,7 +3,7 @@
 
 <h1>REŠITEV</h1>
 <br>
-{{stevilo}}{{vhodna_enota}}= {{resitev}}{{izhodna_enota}}
+{{stevilo}}  {{vhodna_enota}} je  {{resitev}}  {{izhodna_enota}}
 <br>
 <form action ="/nazaj/" method="GET">
     <button type="submit">nova pretvorba</button>

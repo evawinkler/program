@@ -10,7 +10,7 @@
 <text> iz enote: </text>
 <br>
 
-<input type="radio" name="vhodna_enota" value="kelvinn"> kelvin</option>
+<input type="radio" name="vhodna_enota" value="kelvin"> kelvin</option>
 <input type="radio" name="vhodna_enota" value="fahrenheit"> fahrenheit</option>
 <input type="radio" name="vhodna_enota" value="celzij"> celzij</option>
    
