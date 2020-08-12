@@ -9,19 +9,19 @@
 </blockquote>
 
 <br>
-  <form action="/temperaturo/" method="POST">
+  <form action="/temperaturo/" method="GET">
     <button type="submit">temperatura</button>
   </form>
 </br> 
 
 <br>
-  <form action="/dolzino/" method="POST">
+  <form action="/dolzino/" method="GET">
     <button type="submit">dolzina</button>
   </form>
 </br> 
 
 <br>
-  <form action="/maso/" method="POST">
+  <form action="/maso/" method="GET">
     <button type="submit">masa</button>
   </form>
 </br> 
