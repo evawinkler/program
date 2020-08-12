@@ -10,7 +10,7 @@ resitev = 0
 
 @bottle.get('/')
 def zacetna_stran():
-    return bottle.template('zacetna_stran.tpl', resitev=resitev)
+    return bottle.template('zacetna_stran.tpl', resitev = resitev)
 
 
 @bottle.post('/pretvori/')
