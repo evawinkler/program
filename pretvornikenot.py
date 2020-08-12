@@ -26,7 +26,6 @@ def pretvori():
 
 @bottle.get('/pretvori_v_enoto/')
 def pretvori_v_enoto():
-     
     return bottle.template('resitev.tpl', resitev = resitev, stevilo = stevilo, vhodna_enota = vhodna_enota, izhodna_enota = izhodna_enota)
 
 
