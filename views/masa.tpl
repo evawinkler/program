@@ -4,7 +4,7 @@
 <h1>Pretvornik mase</h1>
 
 <br>
-<form action="/pretvori/">
+<form action="/pretvori/" method="POST">
 število: <input type="text" name="stevilo">
 
 <br>
