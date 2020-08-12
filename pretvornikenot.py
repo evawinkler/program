@@ -16,9 +16,9 @@ def zacetna_stran():
 @bottle.post('/pretvori/')
 def pretvori():
     izbrana_kolicina = kolicina
-    stevilo = float(bottle.request.query['stevilo'])
-    vhodna_enota = bottle.request.query['vhodna_enota']
-    izhodna_enota = bottle.request.query['izhodna_enota']
+    stevilo = float(bottle.request.forms.getunicode('stevilo'))
+    vhodna_enota = bottle.request.forms.getunicode('vhodna_enota')
+    izhodna_enota = bottle.request.forms.getunicode('izhodna_enota')
     resitev = model.pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota)
     bottle.redirect("/pretvori_v_enoto/")
 
@@ -26,7 +26,7 @@ def pretvori():
 def pretvori_v_enoto():
     return bottle.template('resitev.tpl', resitev = resitev, stevilo = stevilo, vhodna_enota = vhodna_enota, izhodna_enota = izhodna_enota)
 
-    
+
 @bottle.get('/temperaturo/')
 def temperaturo():
     global kolicina
