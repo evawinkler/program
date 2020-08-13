@@ -17,7 +17,7 @@
    
     
 <br> <br>
-<text><i> v enoto: <i></text>
+<text><i> v enoto: </i></text>
 <br> <br> 
 
 <input type="radio" name="izhodna_enota" value="kelvin"> kelvin</option>
