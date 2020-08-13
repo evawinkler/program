@@ -24,7 +24,10 @@
 <input type="radio" name="izhodna_enota" value="dekagram"> dekagram</option>
 <input type="radio" name="izhodna_enota" value="kilogram"> kilogram</option>
 <input type="radio" name="izhodna_enota" value="tona"> tona</option>
+
+<br>
 <button type="submit"> Pretvori</button>
+<br> 
 
 </form>
 </br>
