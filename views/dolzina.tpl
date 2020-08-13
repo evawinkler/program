@@ -19,6 +19,7 @@
   <input type="radio" name="vhodna_enota" value="palec"> palec</option>
   <input type="radio" name="vhodna_enota" value="cevelj"> cevelj</option>
   <input type="radio" name="vhodna_enota" value="jard"> jard</option>
+  <input type="radio" name="vhodna_enota" value="milja"> milja </option>
 
   <br> <br>
   <text><i> v enoto: </i> </text>
@@ -32,6 +33,7 @@
   <input type="radio" name="izhodna_enota" value="palec"> palec</option>
   <input type="radio" name="izhodna_enota" value="cevelj"> cevelj</option>
   <input type="radio" name="izhodna_enota" value="jard"> jard</option>
+  <input type="radio" name="izhodna_enota" value="milja"> milja </option>
 
   <br> <br> <br> 
   <button type="submit"> Pretvori</button>

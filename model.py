@@ -45,6 +45,8 @@ def osnovna_dolzina(stevilo, enota):
         return stevilo * 0.3048
     elif enota == 'jard': 
         return stevilo * 0.9144
+    elif enota == 'milja' : 
+        return stevilo * 1609.34 
     else: 
         return False
 
@@ -65,6 +67,8 @@ def iskana_dolzina(stevilo, enota):
         return stevilo * 3.28084
     elif enota == 'jard':
         return stevilo / 1.09361
+    elif enota == 'milja' :
+        return stevilo / 1609.34
     else: 
         return False
 
