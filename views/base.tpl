@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,14 +6,14 @@
     <meta charset="UTF-8">
 </head>
     
-<body>
+<body style="background-color:#FEFEF1;" >
     <!-- Tukaj pride vsebina -->
     <div class="container">
         {{!base}}
     </div>
 
-    <footer> Eva Winkler, 2020 </footer>
+    
   
 </body>
-
+<footer> Eva Winkler, leto 2019/20 </footer>
 </html>

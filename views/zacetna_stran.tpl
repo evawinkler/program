@@ -5,7 +5,8 @@
 <h1>Pretvornik enot</h1>
 
 <blockquote>
-  Program za enostavnejše pretvarjane enot. Na voljo so 3 količine: temperatura, dolžina in masa.
+Pozdravljen v enostavnem programu za pretvarjane enot. Izbiraš lahko med tremi količinami. Za nadaljevanje izberi gumb z 
+željeno količino. 
 </blockquote>
 
 <br>
@@ -16,7 +17,7 @@
 
 <br>
   <form action="/dolzino/" method="GET">
-    <button type="submit">dolzina</button>
+    <button type="submit">dolžina</button>
   </form>
 </br> 
 

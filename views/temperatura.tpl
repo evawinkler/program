@@ -6,24 +6,27 @@
 <br>
 <form action="/pretvori/" method="POST">
 število: <input type="text" name="stevilo">
-<br>
-<text> iz enote: </text>
-<br>
+
+<br> <br>
+<text><i> iz enote: </i></text>
+<br> <br>
 
 <input type="radio" name="vhodna_enota" value="kelvin"> kelvin</option>
 <input type="radio" name="vhodna_enota" value="fahrenheit"> fahrenheit</option>
 <input type="radio" name="vhodna_enota" value="celzij"> celzij</option>
    
     
-<br>
-<text> v enoto: </text>
-<br>
+<br> <br>
+<text><i> v enoto: <i></text>
+<br> <br> 
 
 <input type="radio" name="izhodna_enota" value="kelvin"> kelvin</option>
 <input type="radio" name="izhodna_enota" value="fahrenheit"> fahrenheit</option>
 <input type="radio" name="izhodna_enota" value="celzij"> celzij</option>
-<button type="submit"> Pretvori</button>
 
+<br> <br> 
+<button type="submit"> Pretvori</button>
+<br>
 
 </form>
 </br>
