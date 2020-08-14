@@ -20,7 +20,8 @@
   <footer class="footer">
   <div class="content has-text-centered">
     <p>
-     Eva Winkler, predmet Uvod v programiranje, študijsko leto 2019/20
+    <a href="https://github.com/evawinkler"> Eva Winkler</a>, 
+    predmet <a href="https://www.fmf.uni-lj.si/si/">Uvod v programiranje</a>, študijsko leto 2019/20
     </p>
   </div>
 </footer>

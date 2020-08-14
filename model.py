@@ -1,5 +1,5 @@
 
-# pretvorbe temperature  (najprej v osnovno enoto kelvin , nato v iskano enoto )
+# pretvorbe temperature  (najprej v osnovno enoto kelvin, nato iz osnovne v iskano enoto )
 
 def osnovna_temperatura(stevilo, enota):
     if enota == 'kelvin' : 
@@ -21,12 +21,14 @@ def iskana_temperatura(stevilo, enota):
     else: 
         return False 
 
+# združimo povezavo med enoto v kateri imamo število podano in enoto katero iščemo
+
 def pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota ):
     osnovna = osnovna_temperatura(stevilo, vhodna_enota)
     iskana = iskana_temperatura(osnovna, izhodna_enota)
     return iskana
 
-#pretvorbe dolžine (najprej v osnovno enoto meter , nato v iskano enoto )
+#pretvorbe dolžine (najprej v osnovno enoto meter, nato v iskano enoto )
 
 def osnovna_dolzina(stevilo, enota):
     if enota == 'milimeter':
@@ -72,6 +74,8 @@ def iskana_dolzina(stevilo, enota):
     else: 
         return False
 
+# združimo povezavo med enoto v kateri imamo število podano in enoto katero iščemo
+
 def pretvorba_dolzine(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_dolzina(stevilo, vhodna_enota)
     iskana = iskana_dolzina(osnovna, izhodna_enota)
@@ -103,15 +107,15 @@ def iskana_masa(stevilo, enota):
     else: 
         return False
 
+# združimo povezavo med enoto v kateri imamo število podano in enoto katero iščemo
+
 def pretvorba_mase(stevilo, vhodna_enota, izhodna_enota):
     osnovna = osnovna_masa(stevilo, vhodna_enota)
     iskana = iskana_masa(osnovna, izhodna_enota)
     return iskana 
 
+##  za izbiro količine, povežemo vse pretvorbe
 
-
-
-##  za izbiro količine
 def pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota):
     if izbrana_kolicina == 'temperatura':
         return pretvorba_temperature(stevilo, vhodna_enota, izhodna_enota)

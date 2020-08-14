@@ -2,10 +2,11 @@
 %rebase('base.tpl', title ='Začetna stran')
 
 <center>
-<h1  class="title" >Pretvornik enot</h1>
+<h1  class="title" style="font-family:verdana;" >Pretvornik enot</h1>
 
 <blockquote>
-Pozdravljeni v enostavnem programu za pretvarjanje enot. Izbirate lahko med tremi količinami. Za nadaljevanje izberite gumb z 
+Pozdravljeni v enostavnem programu za pretvarjanje enot. <br>
+ Izbirate lahko med tremi količinami. Za nadaljevanje izberite gumb z 
 željeno količino. 
 </blockquote>
 
