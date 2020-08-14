@@ -1,5 +1,6 @@
 import bottle 
 import model 
+from bottle import error
 
 
 kolicina = ''
@@ -54,5 +55,24 @@ def maso():
 def nazaj():
     return bottle.template('zacetna_stran.tpl', resitev=resitev)
 
+@error(404)
+def error404(error):
+    return bottle.template("napaka.tpl")
+
+@error(400)
+def error400(error):
+    return bottle.template("napaka.tpl")
+
+@error(500)
+def error500(error):
+    return bottle.template("napaka.tpl")
+
+@error(501)
+def error501(error):
+    return bottle.template("napaka.tpl")
+
+@error(505)
+def error505(error):
+    return bottle.template("napaka.tpl")
 
 bottle.run(reloader=True, debug=True) 
