@@ -1,19 +1,22 @@
-
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> {{title}} </title>
-    <meta charset="UTF-8">
-</head>
-    
-<body style="background-color:#FEFEF1;" >
-    <!-- Tukaj pride vsebina -->
-    <div class="container">
-        {{!base}}
-    </div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+  </head>
 
-    
+  <body>
+
+  <section class="section">
+    <div class="container">
+     {{!base}}
+    </div>
+  </section>
+
+  </body>
+
+  <footer> Eva Winkler, leto 2019/20 </footer>
   
-</body>
-<footer> Eva Winkler, leto 2019/20 </footer>
 </html>

@@ -1,31 +1,57 @@
 %rebase('views/base.tpl', title = 'Pretvarjanje enot')
 % import model 
 
-<h1>Pretvornik temperature</h1>
-
-<br>
 <form action="/pretvori/" method="POST">
-število: <input type="text" name="stevilo">
+<div class="field">
+    <label class="label">PRETVORNIK TEMPERATURE</label>
+    <div class="control">
+        <input class="input" type="text" placeholder="Vpiši željeno število" name="stevilo"> 
+    </div>
+  <p class="help"> npr. za pretvorbo iz 30 stopinj celzij v  kelvin, vpiši število 30 </p>
+</div>
 
 <br> <br>
 <text><i> iz enote: </i></text>
 <br> <br>
 
-<input type="radio" name="vhodna_enota" value="kelvin"> kelvin</option>
-<input type="radio" name="vhodna_enota" value="fahrenheit"> fahrenheit</option>
-<input type="radio" name="vhodna_enota" value="celzij"> celzij</option>
-   
+<div class="control">
+  <label class="radio">
+    <input type="radio" name="vhodna_enota" value="kelvin">
+    kelvin
+  </label>
+  <label class="radio">
+    <input type="radio" name="vhodna_enota" value="fahrenheit">
+    fahrenheit
+  </label>
+  <label class="radio">
+    <input type="radio" name="vhodna_enota" value="celzij">
+    celzij
+  </label>
+</div>
+  
     
 <br> <br>
 <text><i> v enoto: </i></text>
 <br> <br> 
 
-<input type="radio" name="izhodna_enota" value="kelvin"> kelvin</option>
-<input type="radio" name="izhodna_enota" value="fahrenheit"> fahrenheit</option>
-<input type="radio" name="izhodna_enota" value="celzij"> celzij</option>
+<div class="control">
+  <label class="radio">
+    <input type="radio" name="izhodna_enota" value="kelvin">
+    kelvin
+  </label>
+  <label class="radio">
+    <input type="radio" name="izhodna_enota" value="fahrenheit">
+    fahrenheit
+  </label>
+  <label class="radio">
+    <input type="radio" name="izhodna_enota" value="celzij">
+    celzij
+  </label>
+</div>
+
 
 <br> <br> 
-<button type="submit"> Pretvori</button>
+<button class="button" type="submit"> Pretvori</button>
 <br>
 
 </form>
