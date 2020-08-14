@@ -1,13 +1,13 @@
 %rebase('base.tpl', title = 'Rešitev')
 %import model 
 
-<h1>REŠITEV</h1>
+<h1 class="title">REŠITEV</h1>
 <br>
-{{stevilo}}  {{vhodna_enota}} je enako  {{resitev}}  {{izhodna_enota}}
+{{stevilo}}  {{vhodna_enota}} je enako  {{round(resitev,4)}}  {{izhodna_enota}}
 <br>
 
 <br> <br>
 <form action ="/nazaj/" method="GET">
-    <button type="submit">nova pretvorba</button>
+    <button class="button" type="submit">NOVA PRETVORBA</button>
 </form> 
 <br> <br> 

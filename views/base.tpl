@@ -17,6 +17,13 @@
 
   </body>
 
-  <footer> Eva Winkler, leto 2019/20 </footer>
+  <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+     Eva Winkler, predmet Uvod v programiranje, študijsko leto 2019/20
+    </p>
+  </div>
+</footer>
+  
   
 </html>

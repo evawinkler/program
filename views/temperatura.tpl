@@ -5,9 +5,9 @@
 <div class="field">
     <label class="label">PRETVORNIK TEMPERATURE</label>
     <div class="control">
-        <input class="input" type="text" placeholder="Vpiši željeno število" name="stevilo"> 
+        <input class="input" type="text" placeholder="Vpišite željeno število" name="stevilo"> 
     </div>
-  <p class="help"> npr. za pretvorbo iz 30 stopinj celzij v  kelvin, vpiši število 30 </p>
+  <p class="help"> npr. za pretvorbo iz 30 stopinj celzij v  kelvin, vpišite število 30 </p>
 </div>
 
 <br> <br>
@@ -51,7 +51,7 @@
 
 
 <br> <br> 
-<button class="button" type="submit"> Pretvori</button>
+<button class="button" type="submit"> PRETVORI</button>
 <br>
 
 </form>

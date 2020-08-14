@@ -7,9 +7,9 @@
 <div class="field">
   <label class="label">PRETVORNIK MASE</label>
   <div class="control">
-   <input class="input" type="text" placeholder="Vpiši željeno število" name="stevilo"> 
+   <input class="input" type="text" placeholder="Vpišite željeno število" name="stevilo"> 
   </div>
-  <p class="help"> npr. za pretvorbo iz 30g v  kg, vpiši število 30 </p>
+  <p class="help"> npr. za pretvorbo iz 30g v  kg, vpišite število 30 </p>
 </div>
 
 <br> <br>
@@ -62,7 +62,7 @@
 
 
 <br> <br>
-<button class="button" type="submit"> Pretvori</button>
+<button class="button" type="submit"> PRETVORI</button>
 <br> 
 
 </form>

@@ -5,25 +5,25 @@
 <h1  class="title" >Pretvornik enot</h1>
 
 <blockquote>
-Pozdravljen v enostavnem programu za pretvarjane enot. Izbiraš lahko med tremi količinami. Za nadaljevanje izberi gumb z 
+Pozdravljeni v enostavnem programu za pretvarjanje enot. Izbirate lahko med tremi količinami. Za nadaljevanje izberite gumb z 
 željeno količino. 
 </blockquote>
 
 <br>
   <form action="/temperaturo/" method="GET">
-    <button class="button" type="submit">temperatura</button>
+    <button class="button is-outlined" type="submit">TEMPERATURA</button>
   </form>
 </br> 
 
 <br>
   <form action="/dolzino/" method="GET">
-    <button class="button" type="submit">dolžina</button>
+    <button class="button is-outlined" type="submit">DOLŽINA</button>
   </form>
 </br> 
 
 <br>
   <form action="/maso/" method="GET">
-    <button  class="button" type="submit">masa</button>
+    <button  class="button is-outlined" type="submit">MASA</button>
   </form>
 </br> 
 
