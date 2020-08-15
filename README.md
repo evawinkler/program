@@ -1,6 +1,6 @@
 # Pretvornik enot
 
-Pri predmetu Uvod v programiranje sem naredila program za pretvorbo enot. 
+Pri predmetu [Uvod v programiranje](https://www.fmf.uni-lj.si/si/) sem naredila program za pretvorbo enot. 
 
 Program je enostaven za uporabo. Vsebuje tri najbolj osnovne količine, ki so dolžina, masa in temperatura. 
 
@@ -13,7 +13,17 @@ Program je enostaven za uporabo. Vsebuje tri najbolj osnovne količine, ki so do
 5. V terminalu sledite spodnji povezavi: 
 ```sh
 http://127.0.0.1:8080/
+
 ``` 
+## Navodila za uporabo
+
+1. Na začetni strani izberite željeno količino za pretvorbo.
+2. Vpišite število, ki ga pretvarjate. Pri tem označite iz katere enote 
+pretvarjate ter v katero želite. 
+3. Dobili boste rešitev.  
+
+
+
 
 
 
