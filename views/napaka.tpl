@@ -9,8 +9,8 @@
 <br> Ob ponovni pretvorbi preverite, da vnašate število ter izberete željeni enoti. 
 </blockquote>
 
-
 <br> <br> 
+
 <form action ="/nazaj/" method="GET">
     <button class="button" type="submit">NOVA PRETVORBA</button>
 </form> 

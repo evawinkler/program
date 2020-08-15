@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> {{title}} </title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
-  </head>
 
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> {{title}} </title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+</head>
 
-  <section class="section">
-    <div class="container">
-     {{!base}}
-    </div>
-  </section>
+<body>
 
-  </body>
+<section class="section">
+  <div class="container">
+    {{!base}}
+  </div>
+</section>
 
-  <footer class="footer">
+</body>
+
+<footer class="footer">
   <div class="content has-text-centered">
     <p>
     <a href="https://github.com/evawinkler"> Eva Winkler</a>, 
@@ -25,6 +26,5 @@
     </p>
   </div>
 </footer>
-  
   
 </html>

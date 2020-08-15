@@ -55,8 +55,6 @@
   </label>
 </div>
 
-
-
 <br> <br>
 <text><i> v enoto: </i> </text>
 <br> <br>
@@ -101,8 +99,7 @@
 </div>
 
 <br> <br> <br> 
-<button class="button" type="submit"> PRETVORI</button>
+<button class="button" type="submit">PRETVORI</button>
 <br>
 
 </form>
-</br>

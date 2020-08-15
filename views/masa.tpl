@@ -2,7 +2,6 @@
 % import model 
 
 
-
 <form action="/pretvori/" method="POST">
 <div class="field">
   <label class="label">PRETVORNIK MASE</label>
@@ -60,10 +59,8 @@
 </div>
 
 
-
 <br> <br>
 <button class="button" type="submit"> PRETVORI</button>
 <br> 
 
 </form>
-</br>

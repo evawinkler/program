@@ -51,8 +51,7 @@
 
 
 <br> <br> 
-<button class="button" type="submit"> PRETVORI</button>
+<button class="button" type="submit">PRETVORI</button>
 <br>
 
 </form>
-</br>

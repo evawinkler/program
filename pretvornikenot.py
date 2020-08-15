@@ -11,7 +11,6 @@ resitev = 0
 
 @bottle.get('/')
 def zacetna_stran():
-    
      return bottle.template('zacetna_stran.tpl')
     
 
@@ -23,6 +22,7 @@ def pretvori():
     vhodna_enota = bottle.request.forms.getunicode('vhodna_enota')
     izhodna_enota = bottle.request.forms.getunicode('izhodna_enota')
     resitev = model.pretvorba(izbrana_kolicina, stevilo, vhodna_enota, izhodna_enota) 
+    
     return bottle.template('resitev.tpl', resitev = resitev, stevilo = stevilo, vhodna_enota = vhodna_enota, izhodna_enota = izhodna_enota)
     bottle.redirect('/pretvori_v_enoto/')
 
