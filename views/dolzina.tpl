@@ -8,7 +8,7 @@
   <div class="control">
     <input class="input" type="text" placeholder="Vpišite željeno število" name="stevilo"> 
   </div>
-  <p class="help"> npr. za pretvorbo iz 30cm v  metre, vpišite število 30 </p>
+  <p class="help"> primer: za pretvorbo iz 30 centimetrov v metre, vpišite število 30 </p>
 </div>
 
 

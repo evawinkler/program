@@ -45,7 +45,7 @@ def osnovna_dolzina(stevilo, enota):
         return stevilo * 1000
     elif enota == 'palec': 
         return stevilo * 0.0254
-    elif enota == 'cevelj':
+    elif enota == 'čevelj':
         return stevilo * 0.3048
     elif enota == 'jard': 
         return stevilo * 0.9144
@@ -67,7 +67,7 @@ def iskana_dolzina(stevilo, enota):
         return stevilo / 1000
     elif enota == 'palec' : 
         return stevilo * 39.3701
-    elif enota == 'cevelj':
+    elif enota == 'čevelj':
         return stevilo * 3.28084
     elif enota == 'jard':
         return stevilo / 1.09361

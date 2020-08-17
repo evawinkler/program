@@ -7,7 +7,7 @@
     <div class="control">
         <input class="input" type="text" placeholder="Vpišite željeno število" name="stevilo"> 
     </div>
-  <p class="help"> npr. za pretvorbo iz 30 stopinj celzij v  kelvin, vpišite število 30 </p>
+  <p class="help">primer: za pretvorbo iz 30 stopinj celzij v kelvin, vpišite število 30 </p>
 </div>
 
 <br> <br>
